@@ -6,7 +6,7 @@ import Burger from './components/Burger';
 import Pizza from './components/Pizza';
 import Cart from './components/Cart';
 import axios from 'axios'
-const url = "http://localhost:5000";
+const url = "https://app-fooda.herokuapp.com";
 export const FoodContext = React.createContext();
 function App() {
   let [data,setData] = useState([]);
